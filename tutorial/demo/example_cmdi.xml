@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8'?><cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/1" xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1639731773869" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" CMDVersion="1.2" xsi:schemaLocation="http://www.clarin.eu/cmd/1         http://infra.clarin.eu/CMDI/1.x/xsd/cmd-envelop.xsd         http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1639731773869         https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1639731773869/xsd">
+  <cmd:Header>
+    <cmd:MdCreator>aggregation_cmdi_creation.py</cmd:MdCreator>
+    <cmd:MdCreationDate>2022-04-21</cmd:MdCreationDate>
+    <cmd:MdSelfLink>https://europeana-oai.clarin.eu/metadata/fulltext-aggregation/9200303/Valmieras_Zi_ojumu_Lapa_collection.xml</cmd:MdSelfLink>
+    <cmd:MdProfile>clarin.eu:cr1:p_1639731773869</cmd:MdProfile>
+    <cmd:MdCollectionDisplayName>Europeana newspapers full-text</cmd:MdCollectionDisplayName>
+  </cmd:Header>
+  <cmd:Resources>
+    <cmd:ResourceProxyList>
+      <cmd:ResourceProxy id="landing_page">
+        <cmd:ResourceType>LandingPage</cmd:ResourceType>
+        <cmd:ResourceRef>https://pro.europeana.eu/page/iiif#download</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="archive_edm">
+        <cmd:ResourceType mimetype="application/zip">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>ftp://download.europeana.eu/newspapers/fulltext/edm_issue/9200303.zip</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="archive_alto">
+        <cmd:ResourceType mimetype="application/zip">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>ftp://download.europeana.eu/newspapers/fulltext/alto/9200303.zip</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="_1900">
+        <cmd:ResourceType>Metadata</cmd:ResourceType>
+        <cmd:ResourceRef>https://europeana-oai.clarin.eu/metadata/fulltext-aggregation/9200303/Valmieras_Zi_ojumu_Lapa_1900.xml</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="_1901">
+        <cmd:ResourceType>Metadata</cmd:ResourceType>
+        <cmd:ResourceRef>https://europeana-oai.clarin.eu/metadata/fulltext-aggregation/9200303/Valmieras_Zi_ojumu_Lapa_1901.xml</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="_1903">
+        <cmd:ResourceType>Metadata</cmd:ResourceType>
+        <cmd:ResourceRef>https://europeana-oai.clarin.eu/metadata/fulltext-aggregation/9200303/Valmieras_Zi_ojumu_Lapa_1903.xml</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="_1904">
+        <cmd:ResourceType>Metadata</cmd:ResourceType>
+        <cmd:ResourceRef>https://europeana-oai.clarin.eu/metadata/fulltext-aggregation/9200303/Valmieras_Zi_ojumu_Lapa_1904.xml</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="_1905">
+        <cmd:ResourceType>Metadata</cmd:ResourceType>
+        <cmd:ResourceRef>https://europeana-oai.clarin.eu/metadata/fulltext-aggregation/9200303/Valmieras_Zi_ojumu_Lapa_1905.xml</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="_1906">
+        <cmd:ResourceType>Metadata</cmd:ResourceType>
+        <cmd:ResourceRef>https://europeana-oai.clarin.eu/metadata/fulltext-aggregation/9200303/Valmieras_Zi_ojumu_Lapa_1906.xml</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+    </cmd:ResourceProxyList>
+    <cmd:JournalFileProxyList/>
+    <cmd:ResourceRelationList/>
+  </cmd:Resources>
+  <cmd:IsPartOfList/>
+  <cmd:Components>
+    <MetadataCollection>
+      <TitleInfo>
+        <title>Valmieras Ziņojumu Lapa</title>
+      </TitleInfo>
+      <Description>
+        <description>Full text content aggregated from Europeana. Title: "Valmieras Ziņojumu Lapa". Years: 1900, 1901, 1903, 1904, 1905, 1906.</description>
+      </Description>
+      <ResourceType>
+        <label>Text</label>
+      </ResourceType>
+      <Keyword>
+        <label>Analytic serial</label>
+      </Keyword>
+      <Keyword>
+        <label>Newspaper</label>
+      </Keyword>
+      <Keyword>
+        <label>Newspaper Issue</label>
+      </Keyword>
+      <Publisher>
+        <name>National Library of Latvia</name>
+      </Publisher>
+      <Publisher>
+        <name>The European Library</name>
+      </Publisher>
+      <Language>
+        <name>German</name>
+        <code>deu</code>
+      </Language>
+      <Language>
+        <name>Latvian</name>
+        <code>lav</code>
+      </Language>
+      <Language>
+        <name>Russian</name>
+        <code>rus</code>
+      </Language>
+      <TemporalCoverage>
+        <label>1900 - 1906</label>
+        <Start>
+          <year>1900</year>
+        </Start>
+        <End>
+          <year>1906</year>
+        </End>
+      </TemporalCoverage>
+      <GeoLocation>
+        <label>Latvia</label>
+        <Country>
+          <label>Latvia</label>
+        </Country>
+      </GeoLocation>
+      <AccessInfo>
+        <Licence>
+          <identifier>http://creativecommons.org/publicdomain/mark/1.0/</identifier>
+          <label>http://creativecommons.org/publicdomain/mark/1.0/</label>
+          <url>http://creativecommons.org/publicdomain/mark/1.0/</url>
+        </Licence>
+      </AccessInfo>
+      <Subresource cmd:ref="archive_edm">
+        <SubresourceDescription>
+          <label>Archive containing full text content in EDM format which includes this title</label>
+        </SubresourceDescription>
+      </Subresource>
+      <Subresource cmd:ref="archive_alto">
+        <SubresourceDescription>
+          <label>Archive containing full text content in ALTO format which includes this title</label>
+        </SubresourceDescription>
+      </Subresource>
+      <Subresource cmd:ref="_1900">
+        <SubresourceDescription>
+          <label>Valmieras Ziņojumu Lapa - 1900</label>
+          <TemporalCoverage>
+            <label>1900</label>
+          </TemporalCoverage>
+        </SubresourceDescription>
+      </Subresource>
+      <Subresource cmd:ref="_1901">
+        <SubresourceDescription>
+          <label>Valmieras Ziņojumu Lapa - 1901</label>
+          <TemporalCoverage>
+            <label>1901</label>
+          </TemporalCoverage>
+        </SubresourceDescription>
+      </Subresource>
+      <Subresource cmd:ref="_1903">
+        <SubresourceDescription>
+          <label>Valmieras Ziņojumu Lapa - 1903</label>
+          <TemporalCoverage>
+            <label>1903</label>
+          </TemporalCoverage>
+        </SubresourceDescription>
+      </Subresource>
+      <Subresource cmd:ref="_1904">
+        <SubresourceDescription>
+          <label>Valmieras Ziņojumu Lapa - 1904</label>
+          <TemporalCoverage>
+            <label>1904</label>
+          </TemporalCoverage>
+        </SubresourceDescription>
+      </Subresource>
+      <Subresource cmd:ref="_1905">
+        <SubresourceDescription>
+          <label>Valmieras Ziņojumu Lapa - 1905</label>
+          <TemporalCoverage>
+            <label>1905</label>
+          </TemporalCoverage>
+        </SubresourceDescription>
+      </Subresource>
+      <Subresource cmd:ref="_1906">
+        <SubresourceDescription>
+          <label>Valmieras Ziņojumu Lapa - 1906</label>
+          <TemporalCoverage>
+            <label>1906</label>
+          </TemporalCoverage>
+        </SubresourceDescription>
+      </Subresource>
+      <MetadataInfo>
+        <Publisher>
+          <name>CLARIN ERIC</name>
+          <ContactInfo>
+            <url>https://www.clarin.eu</url>
+          </ContactInfo>
+        </Publisher>
+        <ProvenanceInfo>
+          <Creation>
+            <ActivityInfo>
+              <method>Creation and aggregation by The European Library/Europeana</method>
+              <note>EDM metadata</note>
+              <When>
+                <label>Unspecified</label>
+              </When>
+            </ActivityInfo>
+            <ActivityInfo>
+              <method>Conversion</method>
+              <note>Converted from EDM to CMDI</note>
+              <When>
+                <date>2022-04-21</date>
+              </When>
+            </ActivityInfo>
+          </Creation>
+          <Collection>
+            <ActivityInfo>
+              <method>Aggregation</method>
+              <note>Metadata and full text retrieved from Europeana servers.
+                  See https://pro.europeana.eu/page/iiif#download</note>
+              <When>
+                <label>2021</label>
+                <year>2021</year>
+              </When>
+            </ActivityInfo>
+          </Collection>
+        </ProvenanceInfo>
+      </MetadataInfo>
+    </MetadataCollection>
+  </cmd:Components>
+</cmd:CMD>
