@@ -1,7 +1,7 @@
 name: europeana-newspapers
-channels:
-  - conda-forge
-dependencies:
-  - lxml
-  - numpy
-  - matplotlib
+#channels:
+#  - conda-forge
+#dependencies:
+#  - lxml
+#  - numpy
+#  - matplotlib
