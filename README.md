@@ -1,5 +1,5 @@
 # Jupyter notebooks for Europeana newspaper text resource processing
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/twagoo/europeana-newspapers-notebooks/main?labpath=start.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/clarin-eric/europeana-newspapers-notebooks/main?labpath=start.ipynb)
 
 These notebooks have been designed to help getting started with the processing historical text resources (from [Europeana Newspapers](https://www.europeana.eu/en/collections/topic/18-newspapers))
 with natural language processing (NLP) tools (from [CLARIN](https://www.clarin.eu)) using [Jupyter notebooks](https://jupyter.org/).
