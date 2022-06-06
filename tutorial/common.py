@@ -1,3 +1,9 @@
+'''
+    This file defines some common functions and variables that are used in the demo
+    and exercise notebooks
+'''
+
+
 from os.path import expanduser
 data_dir = expanduser("~") + '/data'
 
