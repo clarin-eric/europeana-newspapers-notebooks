@@ -21,4 +21,4 @@ These training materials have been developed by Twan Goosen (CLARIN), Michał Ga
 Thanks to Dieter Van Uytvanck (CLARIN ERIC), Iulianna van der Lek-Ciudin (CLARIN ERIC ), Alba Irollo (Europeana) for their contributions.
 
 ![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png) \
-The materials in this repositoy are released under a [CC0 licence](https://creativecommons.org/share-your-work/public-domain/cc0/).
+The materials in this repositoy are released under a [CC0 1.0 licence](https://creativecommons.org/publicdomain/zero/1.0/)..
