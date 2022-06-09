@@ -13,3 +13,12 @@ Of course, you can use these notebooks in a any local or remote environment that
 2) [jupyter-repo2docker](https://repo2docker.readthedocs.io/en/latest/) which offers an easy way to create a docker image based on this repository for those with access to an environment where docker is available.
 
 For more information, you can also have a look at [start.ipynb](start.ipynb) right here.
+
+----
+
+These training materials have been developed by Twan Goosen (CLARIN), Michał Gawor (CLARIN ERIC) in the context of the [Europeana DSI-4 project](https://pro.europeana.eu/project/europeana-dsi-4).
+
+Thanks to Dieter Van Uytvanck (CLARIN ERIC), Iulianna van der Lek-Ciudin (CLARIN ERIC ), Alba Irollo (Europeana) for their contributions.
+
+![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png) \
+The materials in this repositoy are released under a [CC0 licence](https://creativecommons.org/share-your-work/public-domain/cc0/).
