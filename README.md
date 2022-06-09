@@ -1,4 +1,4 @@
-# Jupyter notebooks for Europeana newspaper text resource processing
+# Using Jupyter Notebooks to Process the Europeana Newspaper Text Resources
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/clarin-eric/europeana-newspapers-notebooks/main?labpath=start.ipynb)
 
 These notebooks have been designed to help getting started with the processing of historical text resources (from [Europeana Newspapers](https://www.europeana.eu/en/collections/topic/18-newspapers))
