@@ -132,13 +132,10 @@ def unzip_file(input_path, output_path=""):
     """
     if not output_path:
         output_path = f"{os.path.dirname(input_path)}/{os.path.basename(input_path).split('.')[0]}"
-        print("$$")
-        print(output_path)
-        print(input_path)
     with ZipFile(input_path, 'r') as zip_ref:
         logger.info(f'Unzipping {input_path} to {output_path}')
-        zip_ref.extractall()
         extracted_files_paths = zip_ref.namelist()
+        zip_ref.extractall(output_path)
         
     return [os.path.join(output_path, extracted_file_path) for extracted_file_path in extracted_files_paths]
 
@@ -150,7 +147,7 @@ def _zip_dir(input_dir_path, zip_handle):
             zip_handle.write(os.path.join(dirname, filename), 
                              os.path.relpath(os.path.join(dirname, filename), 
                                              os.path.join(input_dir_path, '..')))
-            
+             
 """
     Safety
 """
@@ -220,3 +217,13 @@ def _ex3_get_id_and_date_from_description(description_element):
         for issue_id in issue_ids:
             if issue_id.text.isnumeric():
                 return (issue_id.text, date.fromisoformat(issue_dates_start.text))
+            
+def get_spellchecked_resources():
+    """
+        Function that returns location of spellchecked text for given issue
+        :param str issue_id: Issue ID extracted from metadata
+    """
+    #TODO fix location to data volume 
+    location = [f"{output_file}/BibliographicResource_3000095236729.txt"]
+                
+    
