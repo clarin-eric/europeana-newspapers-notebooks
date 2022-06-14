@@ -5,6 +5,10 @@
     *************************************************************************************
 """
 
+"""
+    
+"""
+
 
 """
     Utilities
@@ -38,7 +42,7 @@ with open(f'{data_dir}/{set_id}/id_file_map.json', 'r') as id_filename_map_file:
     id_filename_map = json.load(id_filename_map_file)
 
 YYYY_MM_DD = re.compile(r"(?P<year>[0-9]{4})-(?P<month>[0-9]{1,2})-(?P<day>[0-9]{1,2})")
-MAX_NER_TASK_SIZE = 2000000
+MAX_NER_TASK_SIZE = 30000000
 
 """
     Metadata printing
@@ -218,12 +222,33 @@ def _ex3_get_id_and_date_from_description(description_element):
             if issue_id.text.isnumeric():
                 return (issue_id.text, date.fromisoformat(issue_dates_start.text))
             
-def get_spellchecked_resources():
-    """
-        Function that returns location of spellchecked text for given issue
-        :param str issue_id: Issue ID extracted from metadata
-    """
-    #TODO fix location to data volume 
-    location = [f"{output_file}/BibliographicResource_3000095236729.txt"]
-                
+def get_spellchecked_resources_ex3():
+    data_root = f"{data_dir}/preprocessed_data/Exercise3/"
+    return [f"{data_root}/{filename}" for root, subdir, filenames in os.walk(data_root) for filename in filenames]
+
+def get_spellchecked_resources_ch3():
+    data_root = f"{data_dir}/preprocessed_data/Chapter3/"
+    
+    
+    return [f"{os.path.join(root, filename)}" 
+            for root, subdir, filenames in os.walk(data_root) 
+            for filename in filenames 
+            if "speller" in root]
+
+def get_liner_output_files_ch3():
+    data_root = f"{data_dir}/preprocessed_data/Chapter3/"
+    return [f"{os.path.join(root, filename)}"
+            for root, subdir, filenames in os.walk(data_root)
+            for filename in filenames
+            if "liner.zip" in filename] 
+
+def align_resources(resources_raw, resources_spelled):
+    ret = []
+    for rraw in resources_raw:
+        for rspelled in resources_spelled:
+            print(os.path.basename(rraw).split(".")[0])
+            print(os.path.basename(rspelled).split(".")[0])
+            if os.path.basename(rraw).split(".")[0] == os.path.basename(rspelled).split(".")[0]:
+                ret.append((rraw, rspelled))
+    return ret
     
