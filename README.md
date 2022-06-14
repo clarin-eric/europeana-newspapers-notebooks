@@ -16,9 +16,11 @@ For more information, you can also have a look at [start.ipynb](start.ipynb) rig
 
 ----
 
-These training materials have been developed by Twan Goosen (CLARIN), Michał Gawor (CLARIN ERIC) in the context of the [Europeana DSI-4 project](https://pro.europeana.eu/project/europeana-dsi-4).
+These training materials have been developed by Twan Goosen and Michał Gawor (CLARIN ERIC) in the context of the [Europeana DSI-4 project](https://pro.europeana.eu/project/europeana-dsi-4).
 
-Thanks to Dieter Van Uytvanck (CLARIN ERIC), Iulianna van der Lek-Ciudin (CLARIN ERIC ), Alba Irollo (Europeana) for their contributions.
+Thanks to Alba Irollo (Europeana), Dieter Van Uytvanck (CLARIN ERIC) and Iulianna van der Lek-Ciudin (CLARIN ERIC) for their contributions.
+
+Learn more about these and other notebooks, and how to use them with language data and technology at [clarin.eu/notebooks](https://www.clarin.eu/notebooks).
 
 ![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png) \
 The materials in this repositoy are released under a [CC0 1.0 licence](https://creativecommons.org/publicdomain/zero/1.0/).
